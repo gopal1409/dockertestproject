@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: myapp3-container
-        image: nginx
+        image: piuma/phpsysinfo
         ports:
           - containerPort: 80
